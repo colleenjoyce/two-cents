@@ -1,0 +1,11 @@
+.grid-because {
+  display: none;
+
+  .emotion {
+    color: $blue;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

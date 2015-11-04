@@ -1,0 +1,16 @@
+$default-font : 'Open Sans', 'sans-serif';
+$open-sans : 'Open Sans', helvetica, sans-serif;
+$helvetica : helvetica, arial, sans-serif;
+
+@mixin text-style($color, $font-family, $font-size,
+$line-height: normal, $font-style: normal, $font-weight: normal,
+$letter-spacing: normal, $text-transform: none) {
+  color: $color;
+  font-family: $font-family;
+  font-size: #{$font-size};
+  font-style: #{$font-style};
+  font-weight: #{$font-weight};
+  letter-spacing: #{$letter-spacing};
+  line-height: #{$line-height};
+  text-transform: #{$text-transform};
+}

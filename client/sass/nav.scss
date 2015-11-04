@@ -1,0 +1,22 @@
+nav {
+  background-color: $slate-gray;
+  height: 60px;
+  width: 100vw;
+
+  .progress-tracker-container {
+    width: 100px;
+    margin: 0 auto;
+  }
+
+  .circle {
+    border: solid 1px $color-white;
+    display: inline-block;
+    opacity: .9;
+    margin: 20px 3px 15px;
+    width: 10px;
+    height: 10px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+  }
+}

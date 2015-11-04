@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  @import "nav";
+  @import "grid-feeling";
+  @import "grid-because";
+  @import "grid-better";
+  @import "intro";
+}
+
+// Progress bar
+.index-1 {
+  nav {
+    .step-1 {
+      background-color: $color-white;
+    }
+  }
+}
+
+.index-2 {
+  nav {
+    .step-2 {
+      background-color: $color-white;
+    }
+  }
+}
+
+.index-3 {
+  nav {
+    .step-3 {
+      background-color: $color-white;
+    }
+  }
+}
+
+.index-4 {
+  nav {
+    .step-4 {
+      background-color: $color-white;
+    }
+  }
+}

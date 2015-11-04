@@ -1,0 +1,18 @@
+.thank-you {
+  max-width: 500px;
+  margin: 0 auto 20px;
+
+  p {
+    padding: 25px;
+    @include text-style($color-black, $default-font, 35px);
+    margin: 0;
+  }
+
+  .bill {
+    border: 2px solid $color-black;
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+  }
+}
+
