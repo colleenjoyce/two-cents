@@ -2,17 +2,48 @@
   max-width: 500px;
   margin: 0 auto 20px;
 
-  p {
+  h2 {
     padding: 25px;
-    @include text-style($color-black, $default-font, 35px);
+    @include text-style($color-black, $default-font, 25px);
     margin: 0;
+  }
+
+  p {
+    @include text-style($color-black, $default-font, 25px);
+    margin: 0;
+  }
+
+  .ps {
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 
   .bill {
     border: 2px solid $color-black;
     display: block;
     margin: 0 auto;
-    width: 90%;
+    width: 65%;
+  }
+
+  .mailchimp {
+    width: 300px;
+
+    img {
+      display: inline-block;
+      margin: 0;
+      width: 5%;
+    }
+
+    email {
+      @include text-style($color-black, $default-font, 25px);
+      display: inline-block;
+      margin: 0;
+    }
+
+    @media screen and (min-device-width: $sm) {
+      margin: 10px auto 0;
+    }
   }
 }
 
