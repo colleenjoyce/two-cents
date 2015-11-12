@@ -39,4 +39,24 @@
       margin: 0;
     }
   }
+
+  .mailchimp {
+    width: 300px;
+
+    img {
+      display: inline-block;
+      margin: 0;
+      width: 5%;
+    }
+
+    email {
+      @include text-style($color-black, $default-font, 25px);
+      display: inline-block;
+      margin: 0;
+    }
+
+    @media screen and (min-device-width: $sm) {
+      margin: 10px auto 0;
+    }
+  }
 }
